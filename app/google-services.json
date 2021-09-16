@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "176029331460",
+    "project_id": "subwayapp-69cf5",
+    "storage_bucket": "subwayapp-69cf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176029331460:android:665f4aedac989af89fc551",
+        "android_client_info": {
+          "package_name": "com.jcy.ch24_subwayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176029331460-q3katabfjkq9m4h63iilv1r3urc5jdl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jcy.ch24_subwayapp",
+            "certificate_hash": "51d99f756c7dba45d28cbd4d3fa05c928289b0cd"
+          }
+        },
+        {
+          "client_id": "176029331460-km2bif6l8cv22013god32usq4vnqnjbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpLgKceJRlB7ENZMv6qr1f7R4MM1yjLxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176029331460-km2bif6l8cv22013god32usq4vnqnjbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

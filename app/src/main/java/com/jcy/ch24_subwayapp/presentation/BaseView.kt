@@ -1,4 +1,4 @@
-package com.jcy.ch24_subwayapp.presenter
+package com.jcy.ch24_subwayapp.presentation
 
 /**
     view는 presenter를 알고, presenter도 뷰를 안다
