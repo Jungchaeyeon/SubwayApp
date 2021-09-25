@@ -5,5 +5,5 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class SubwayEntity(
-    @PrimaryKey val subwayId: Int
+    @PrimaryKey val subwayId: Int,
 )

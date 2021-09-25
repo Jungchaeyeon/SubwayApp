@@ -29,4 +29,20 @@ interface StationDao {
      * Insert, Update, Delete와 같은 것들은 Transaction이 내부적으로 처리된다.
      * 때문에 @Query를 사용할 때는 수동으로 @Transaction을 붙여줘야 한다.
      **/
+    @Transaction
+    suspend fun insertStationSubways(stationSubways: List<Pair<StationEntity, SubwayEntity>>) {
+        insertStations(stationSubways.map { it.first })
+        insertSubways(stationSubways.map { it.second })
+        insertCrossReferences(
+            stationSubways.map { (station, subway) ->
+                StationSubwayCrossRefEntity(
+                    station.stationName,
+                    subway.subwayId
+                )
+            }
+        )
+    }
+
+    @Update
+    suspend fun updateStation(station: StationEntity)
 }
