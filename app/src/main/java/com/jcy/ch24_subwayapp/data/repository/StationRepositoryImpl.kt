@@ -28,7 +28,7 @@ class StationRepositoryImpl(
     override val stations: Flow<List<Station>> =
             stationDao.getStationWithSubways()
                 .distinctUntilChanged()
-                .map { it.toStations() }
+                .map { stations -> stations.toStations().sortedByDescending { it.isFavorited } }
                 .flowOn(dispatcher)
 
 
