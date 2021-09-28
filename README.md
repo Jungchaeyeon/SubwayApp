@@ -19,4 +19,5 @@ SEOUL_API_ACCESS_KEY="자신의발급인증키"
 MVP, room, retrofit2, okhttp3, koin, viewBinding, coroutines
 
 <br/><br/>
-from-fastcampus 윤승용님 강의 참고
+
+fastcampus 윤승용님 강의 참고
